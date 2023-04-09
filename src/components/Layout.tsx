@@ -6,15 +6,14 @@ export default function Layout({ pages }: { pages: Array<() => JSX.Element> }) {
   const menuArray = [
     "It's Fred",
     "About",
-    "The physio era",
-    "The dev era",
-    "CS50",
-    "FreeCodeCamp",
-    "My projects",
+    "Education and Certificates",
+    "Skills",
+    "Projects",
+    "Contact me",
   ]
   return (
     <>
-      <div className="transition fixed h-screen w-72 -translate-x-60 hover:translate-x-0 hover:text-transparent z-10 shadow-2xl shadow-black">
+      <div className="transition fixed h-screen w-72 -translate-x-60 hover:translate-x-0 hover:text-transparent z-20 shadow-2xl shadow-black">
         <div className="absolute w-full h-full z-2 blur bg-black/70"></div>
         <div className="w-full flex justify-end p-3 ml-10 z-3">
           <p className="text-5xl z-10">
@@ -46,7 +45,7 @@ export default function Layout({ pages }: { pages: Array<() => JSX.Element> }) {
         className="snap-y snap-mandatory w-screen h-screen overflow-auto"
       >
         {pages.map((page) => (
-          <div className="w-full h-full shrink-0 snap-start relative overflow-hidden">
+          <div className="w-full h-full shrink-0 snap-start relative overflow-auto">
             {page()}
           </div>
         ))}

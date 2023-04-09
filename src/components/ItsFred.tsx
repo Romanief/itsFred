@@ -3,10 +3,10 @@ export default function ItsFred() {
     <>
       <div className="absolute -top-[415px] hover:top-0 right-0 z-0 transition-all">
         <div className="transition mr-10 p-3 flex flex-col-reverse hover:text-transparent">
-          <p className="text-4xl mt-10 animate-bounce">Oh this is me btw.</p>
+          <p className="text-4xl mt-10 animate-bounce">Oh, this is me btw.</p>
           <div>
             <img
-              className="h-96 opacity-80 rounded-3xl"
+              className="h-96 opacity-100 rounded-3xl"
               src="/mebtw.jpeg"
             ></img>
           </div>

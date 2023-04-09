@@ -4,6 +4,11 @@ import Head from "next/head"
 import Layout from "@/components/Layout"
 import ItsFred from "@/components/ItsFred"
 import About from "@/components/About"
+import Education from "@/components/Education"
+import Todo from "@/components/ProjecTodo"
+import Skills from "@/components/Skills"
+import Shop from "@/components/ProjectShop"
+import Contact from "@/components/Contact"
 
 export default function Home() {
   const requestRef = React.useRef<number>()
@@ -15,7 +20,7 @@ export default function Home() {
       document.documentElement
     ).getPropertyValue("--gradient-size")
 
-    if (parseInt(currentValue) === 850) {
+    if (parseInt(currentValue) === 900) {
       return
     }
 
@@ -40,7 +45,9 @@ export default function Home() {
         <link rel="icon" href="/f.png" />
       </Head>
 
-      <Layout pages={[ItsFred, About]} />
+      <Layout
+        pages={[ItsFred, About, Education, Skills, Todo, Shop, Contact]}
+      />
     </>
   )
 }
