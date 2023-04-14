@@ -32,7 +32,7 @@ export default function About() {
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               NHS
             </span>
-            . During my free time, I began exploring{" "}
+            . During my free time, I began to explore{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               programming
             </span>{" "}
