@@ -14,7 +14,7 @@ export default function Layout({ pages }: { pages: Array<() => JSX.Element> }) {
   ]
   return (
     <>
-      <div className="transition fixed h-screen w-72 -translate-x-60 hover:translate-x-0 hover:text-transparent z-20 shadow-2xl shadow-black">
+      <div className="transition fixed h-screen w-72 -translate-x-60 hover:translate-x-0 hover:text-transparent z-20 sm:shadow-2xl shadow-black">
         <div className="absolute w-full h-full z-2 blur bg-black/70"></div>
         <div className="w-full flex justify-end p-3 sm:ml-10 z-3">
           <p className="sm:text-5xl text-3xl z-10">
