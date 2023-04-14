@@ -48,7 +48,7 @@ function ProjectTodo() {
             </span>
             framework and{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              {" "}
+              simple JWT{" "}
             </span>
             for authentication.
           </p>
