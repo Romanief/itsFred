@@ -41,8 +41,7 @@ function ProjectShop() {
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               Next.js
             </span>
-            , as it was a new framework for me. To overcome this challenge, I
-            spent time{" "}
+            . To overcome this challenge, I spent time{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               researching{" "}
             </span>
