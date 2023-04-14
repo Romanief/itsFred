@@ -23,7 +23,9 @@ export default function ItsFred() {
             </p>
           </div>
 
-          <p className="my-3 text-2xl">Start scrolling and get to know me.</p>
+          <p className="my-3 text-2xl p-5">
+            Start scrolling and get to know me.
+          </p>
         </div>
       </div>
     </>

@@ -4,7 +4,7 @@ function Skills() {
   const list = ["Skills"]
   return (
     <div>
-      <div className="w-full mx-auto p-24 z-10">
+      <div className="w-full mx-auto p-5 sm:p-24">
         <div>
           <p className="text-center text-xl sm:text-7xl text-yellow-500 mb-10">
             {list.map((item) => (

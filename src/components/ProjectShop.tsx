@@ -12,11 +12,11 @@ function ProjectShop() {
     "/SA4.jpeg",
   ]
   return (
-    <div className="w-full mx-auto p-24">
+    <div className="w-full mx-auto p-5 sm:p-244">
       <div>
         <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
-            <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
+            <span className="transition-all sm:hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
             </span>
           ))}

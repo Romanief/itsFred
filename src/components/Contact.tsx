@@ -6,17 +6,17 @@ import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 function Contact() {
   const list = ["Contact", "me"]
   return (
-    <div className="w-full mx-auto p-24">
+    <div className="w-full mx-auto p-5 sm:p-24">
       <div>
         <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
-            <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
+            <span className="transition-all sm:hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
             </span>
           ))}
         </p>
       </div>
-      <div className="text-3xl w-full md:w-3/4 mx-auto my-10 flex flex-col  xl:ml-80">
+      <div className="text-3xl w-full md:w-3/4 sm:mx-auto my-10 flex flex-col  xl:ml-80">
         <div className="flex my-10 lg:text-5xl sm:text-xl text-lg">
           <BsTelephone />
           <div className="mx-5 hover:underline">7584 837 509</div>
