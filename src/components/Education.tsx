@@ -15,7 +15,7 @@ function Education() {
   return (
     <div className="w-full mx-auto p-24 z-10">
       <div>
-        <p className="text-center text-6xl text-yellow-500 mb-10">
+        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
             <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
@@ -24,7 +24,7 @@ function Education() {
         </p>
       </div>
 
-      <div className="text-3xl sm:w-3/4 mx-auto">
+      <div className="sm:text-3xl text-md sm:w-3/4 mx-auto">
         <p className="mt-5">
           I completed a BSc (Hons) degree in{" "}
           <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">

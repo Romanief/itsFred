@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="w-full mx-auto p-24">
       <div>
-        <p className="text-center text-6xl text-yellow-500 mb-10">
+        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
             <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
@@ -12,7 +12,7 @@ export default function About() {
           ))}
         </p>
       </div>
-      <div className="text-3xl w-full sm:w-3/4 sm:mx-auto">
+      <div className="sm:text-3xl text-md w-full sm:w-3/4 sm:mx-auto">
         <div className="pt-5">
           <p className="mt-5">
             I pursued professional{" "}

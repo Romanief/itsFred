@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className="w-full mx-auto p-24">
       <div>
-        <p className="text-center text-2xl sm:text-6xl text-yellow-500 mb-10">
+        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
             <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}

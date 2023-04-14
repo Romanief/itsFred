@@ -17,7 +17,7 @@ function ProjectTodo() {
   return (
     <div className="w-full mx-auto p-24">
       <div>
-        <p className="text-center text-6xl text-yellow-500 mb-10">
+        <p className="text-center sm:text-6xl text-xl text-yellow-500 mb-10">
           {list.map((item) => (
             <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
@@ -25,7 +25,7 @@ function ProjectTodo() {
           ))}
         </p>
       </div>
-      <div className="text-3xl w-full sm:w-3/4 mx-auto">
+      <div className="sm:text-3xl text-md w-full sm:w-3/4 mx-auto">
         <div className="pt-5">
           <p className="mt-5">
             For this project, I developed a{" "}
