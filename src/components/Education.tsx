@@ -15,7 +15,7 @@ function Education() {
   return (
     <div className="w-full mx-auto p-24 z-10">
       <div>
-        <p className="text-center text-7xl text-yellow-500 mb-10">
+        <p className="text-center text-6xl text-yellow-500 mb-10">
           {list.map((item) => (
             <span className="transition-all hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
@@ -66,7 +66,7 @@ function Education() {
           className="text-center mt-10"
           onClick={() => {
             document.querySelector(`#${id}`)!.className =
-              "absolute top-0 left-0 w-screen h-screen bg-black/80"
+              "fixed top-0 left-0 w-full h-full bg-black/80"
           }}
         >
           Click{" "}

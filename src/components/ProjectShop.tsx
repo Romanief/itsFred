@@ -1,7 +1,16 @@
 import React from "react"
+import Carousel from "./Carousel"
 
 function ProjectShop() {
   const list = ["Project", "E-Commerce", "App"]
+  const id = "shop"
+  const images = [
+    "/SA0.jpeg",
+    "/SA1.jpeg",
+    "/SA2.jpeg",
+    "/SA3.jpeg",
+    "/SA4.jpeg",
+  ]
   return (
     <div className="w-full mx-auto p-24">
       <div>
@@ -50,9 +59,22 @@ function ProjectShop() {
             with the framework, and also sought advice from more experienced
             developers.
           </p>
-          <p>Click here to see a screenshot</p>
+          <p
+            className="text-center mt-10"
+            onClick={() => {
+              document.querySelector(`#${id}`)!.className =
+                "fixed top-0 left-0 w-full h-full bg-black/80"
+            }}
+          >
+            Click{" "}
+            <span className="font-extrabold text-yellow-500 cursor-pointer">
+              here
+            </span>{" "}
+            to view some screenshot
+          </p>
         </div>
       </div>
+      <Carousel images={images} id={id} />
     </div>
   )
 }

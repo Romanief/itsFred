@@ -20,11 +20,8 @@ function Skills() {
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               junior{" "}
             </span>
-            front-end developer, I am{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              proficient{" "}
-            </span>
-            in C, Python, JavaScript, HTML, and CSS. I also, through{" "}
+            front-end developer, I have knowledge of C, Python, JavaScript,
+            HTML, and CSS. I also, through{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               projects{" "}
             </span>

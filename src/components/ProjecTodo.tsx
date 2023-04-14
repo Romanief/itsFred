@@ -5,7 +5,14 @@ import Carousel from "./Carousel"
 function ProjectTodo() {
   const list = ["Project", "ToDo", "List", "App"]
   const id = "todo"
-  const images = [""]
+  const images = [
+    "/TD0.jpeg",
+    "/TD1.jpeg",
+    "/TD2.jpeg",
+    "/TD3.jpeg",
+    "/TD4.jpeg",
+    "/TD5.jpeg",
+  ]
 
   return (
     <div className="w-full mx-auto p-24">
@@ -62,7 +69,7 @@ function ProjectTodo() {
             className="text-center mt-10"
             onClick={() => {
               document.querySelector(`#${id}`)!.className =
-                "absolute top-0 left-0 w-screen h-screen bg-black/80"
+                "fixed top-0 left-0 w-full h-full bg-black/80"
             }}
           >
             Click{" "}

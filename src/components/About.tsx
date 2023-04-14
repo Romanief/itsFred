@@ -12,7 +12,7 @@ export default function About() {
           ))}
         </p>
       </div>
-      <div className="text-3xl w-full sm:w-3/4 mx-auto">
+      <div className="text-3xl w-full sm:w-3/4 sm:mx-auto">
         <div className="pt-5">
           <p className="mt-5">
             I pursued professional{" "}
@@ -32,7 +32,7 @@ export default function About() {
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               NHS
             </span>
-            . During a period of free time between jobs, I began exploring{" "}
+            . During a period of free time, I began exploring{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               programming
             </span>{" "}
