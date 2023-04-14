@@ -28,29 +28,23 @@ function ProjectTodo() {
       <div className="sm:text-3xl text-md w-full sm:w-3/4 mx-auto">
         <div className="pt-5">
           <p className="mt-5">
-            For this project, I developed a{" "}
+            Technology used:{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              todo list{" "}
+              React
             </span>
-            app using{" "}
+            ,{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              React{" "}
+              Django
             </span>
-            for the front-end and{" "}
+            ,{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              Django{" "}
+              Django-rest
             </span>
-            for the back-end. The app allows users to create and manage a list
-            of tasks, and provides features such as due dates, login, and
-            registration. I used{" "}
+            ,{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              Django-rest{" "}
+              Simple-JWT
             </span>
-            framework and{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              simple JWT{" "}
-            </span>
-            for authentication.
+            .
           </p>
           <p className="mt-5">
             One of the main challenges I faced was implementing the{" "}

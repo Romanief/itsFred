@@ -12,9 +12,9 @@ function ProjectShop() {
     "/SA4.jpeg",
   ]
   return (
-    <div className="w-full mx-auto p-5 sm:p-244">
+    <div className="w-full mx-auto p-5 sm:p-24">
       <div>
-        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-5 sm:pt-0">
+        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-0 sm:pt-5">
           {list.map((item) => (
             <span className="transition-all sm:hover:text-9xl hover:font-extrabold hover:underline">
               {item}{" "}
@@ -25,21 +25,15 @@ function ProjectShop() {
       <div className="text-md sm:text-3xl w-full sm:w-3/4 mx-auto">
         <div className="pt-5">
           <p className="mt-5">
-            For this project, I developed an{" "}
+            Tecnology used:{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              online store{" "}
+              NextJS
             </span>
-            using{" "}
+            ,{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              Next.js
+              Tailwind
             </span>
-            . My goal was to create a fast and responsive e-commerce platform
-            that provided a seamless shopping experience for customers. I
-            developed the{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              front-end{" "}
-            </span>
-            of the website using React and Tailwind CSS.
+            .
           </p>
           <p className="mt-5">
             This project made me come out of my comfort zone as I had to learn

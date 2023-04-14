@@ -34,8 +34,7 @@ function Education() {
           <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
             London South Bank University{" "}
           </span>
-          in July 2022, where I gained communication and organizational skills
-          that have been invaluable in my professional and personal life.
+          in July 2022.
         </p>
         <p className="mt-5">
           {" "}
@@ -55,11 +54,8 @@ function Education() {
           <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
             Framework{" "}
           </span>
-          course, all while working full-time as a physiotherapist.
-        </p>
-        <p className="mt-5">
-          My ability to multitask and effectively manage my time allowed me to
-          successfully balance my studies with my job.
+          course, all while working full-time as a physiotherapist between 2022
+          and 2023.
         </p>
 
         <p

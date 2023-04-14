@@ -20,8 +20,8 @@ export default function About() {
               ballet
             </span>{" "}
             training from the age of 12 to 19 in Rome and London, fuelled by my
-            childhood dream of becoming a dancer. However, an injury early on in
-            my career forced me to reevaluate my path.
+            childhood dream of becoming a ballet dancer. However, an injury
+            early on in my career forced me to reevaluate my path.
           </p>
           <p className="mt-5">
             Instead of giving up, I completed a degree in{" "}
@@ -32,27 +32,23 @@ export default function About() {
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               NHS
             </span>
-            . During a period of free time, I began exploring{" "}
+            . During my free time, I began exploring{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               programming
             </span>{" "}
             concepts with the help of some software engineer friends.
           </p>
           <p className="mt-5">
-            As someone with a{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              curious{" "}
-            </span>
-            and{" "}
+            Thanks to my{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               inquisitive{" "}
             </span>
-            nature, I found that critical thinking, problem solving, logic, and
+            nature, I found that critical thinking, problem-solving, logic, and
             creativity were all{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
               skills{" "}
             </span>
-            I had that I could apply to coding. This led me to fall in love with
+            I had that I could apply to code, leading me to fall in love with
             programming and continue exploring the field.
           </p>
         </div>
