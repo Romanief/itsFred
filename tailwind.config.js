@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         brushscript: "brush script mt, cursive",
       },
+      backgroundImage: {
+        potrait: "url('/potrait.jpeg')",
+        ballet: "url('/ballet.jpeg')",
+      },
     },
   },
   plugins: [],
