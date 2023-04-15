@@ -1,9 +1,86 @@
 import React from "react"
 
+import { FaReact } from "react-icons/fa"
+import {
+  SiDjango,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiBootstrap,
+  SiTypescript,
+} from "react-icons/si"
+import {
+  IoLogoJavascript,
+  IoLogoHtml5,
+  IoLogoCss3,
+  IoLogoPython,
+} from "react-icons/io"
+
 function Skills() {
   const list = ["Skills"]
   return (
-    <div>
+    <div className="w-full mx-auto h-full p-5 sm:p-24">
+      <div>
+        <p className="text-center text-xl sm:text-7xl text-yellow-500 mb-10 pt-5 sm:pt-0">
+          {list.map((item) => (
+            <span className="transition-all">{item} </span>
+          ))}
+        </p>
+      </div>
+      <div className="flex flex-col h-full justify-around text-md sm:text-xl">
+        <div className="flex justify-around">
+          <div className="flex justify-between">
+            <IoLogoJavascript />
+            <p className="mx-2">JavaScript</p>
+          </div>
+          <div className="flex justify-between">
+            <IoLogoPython />
+            <p className="mx-2">Python</p>
+          </div>
+          <div className="flex justify-between">
+            <IoLogoHtml5 />
+            <p className="mx-2">HTML5</p>
+          </div>
+          <div className="flex justify-between">
+            <IoLogoCss3 />
+            <p className="mx-2">CSS3</p>
+          </div>
+        </div>
+        <div className="flex justify-around">
+          <div className="flex justify-between">
+            <SiTypescript />
+            <p className="mx-2">TypeScript</p>
+          </div>
+          <div className="flex justify-between">
+            <FaReact />
+            <p className="mx-2">React</p>
+          </div>
+          <div className="flex justify-between">
+            <SiNextdotjs />
+            <p className="mx-2">NextJS</p>
+          </div>
+          <div className="flex justify-between">
+            <SiDjango />
+            <p className="mx-2">Django</p>
+          </div>
+        </div>
+        <div className="flex justify-around">
+          <div className="flex justify-between">
+            <SiTailwindcss />
+            <p className="mx-2">TailwindCSS</p>
+          </div>
+          <div className="flex justify-between">
+            <SiBootstrap />
+            <p className="mx-2">Bootstrap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Skills
+
+/* 
       <div className="w-full mx-auto p-5 sm:p-24">
         <div>
           <p className="text-center text-xl sm:text-7xl text-yellow-500 mb-10 pt-5 sm:pt-0">
@@ -36,8 +113,4 @@ function Skills() {
           </p>
         </div>
       </div>
-    </div>
-  )
-}
-
-export default Skills
+*/
