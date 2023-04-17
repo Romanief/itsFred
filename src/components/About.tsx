@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="w-full mx-auto p-5 h-full">
       <div>
-        <p className="text-center text-xl sm:text-6xl text-yellow-600 mb-10 pt-5 sm:pt-0">
+        <p className="text-center text-xl sm:text-6xl text-yellow-600 mb-10 pt-5">
           {list.map((item) => (
             <span>{item} </span>
           ))}
