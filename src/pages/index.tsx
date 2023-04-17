@@ -18,7 +18,7 @@ export default function Home() {
       document.documentElement
     ).getPropertyValue("--gradient-size")
 
-    if (parseInt(currentValue) === 900) {
+    if (parseInt(currentValue) === 500) {
       return
     }
 
