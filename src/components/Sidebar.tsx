@@ -39,19 +39,19 @@ function Sidebar() {
         className="md:hidden fixed right-4 z-50 shrink-0 text-4xl mt-3"
         onClick={() =>
           (document.querySelector("#smallSideBar")!.className =
-            "md:hidden fixed h-screen w-screen bg-black flex flex-col justify-start text-xl z-50 transition")
+            "md:hidden fixed h-screen w-screen bg-black/80 flex flex-col justify-start text-xl z-50 transition")
         }
       />
       <div
         id="smallSideBar"
-        className="md:hidden fixed h-screen w-screen bg-black flex flex-col justify-start text-xl z-50 translate-x-[768px] transition"
+        className="md:hidden fixed h-screen w-screen bg-black/80/80 flex flex-col justify-start text-xl z-50 translate-x-[768px] transition"
       >
         <div className="flex flex-col justify-around h-full text-lg">
           <AiOutlineClose
             className="-translate-y-5 translate-x-3 text-3xl"
             onClick={() =>
               (document.querySelector("#smallSideBar")!.className =
-                "md:hidden fixed h-screen w-screen bg-black flex flex-col justify-start text-xl z-50 translate-x-[768px] transition")
+                "md:hidden fixed h-screen w-screen bg-black/80 flex flex-col justify-start text-xl z-50 translate-x-[768px] transition")
             }
           />
           <div className="flex p-5 transition w-96">

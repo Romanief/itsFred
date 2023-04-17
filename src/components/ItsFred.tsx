@@ -13,7 +13,7 @@ export default function ItsFred() {
             <p>Hey,</p>
             <p>
               It's{" "}
-              <span className="text-yellow-500 font-brushscript">Fred</span>.
+              <span className="text-yellow-600 font-brushscript">Fred</span>.
             </p>
           </div>
 

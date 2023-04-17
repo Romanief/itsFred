@@ -21,7 +21,7 @@ function Projects() {
   return (
     <div className="w-full h-full mx-auto p-5">
       <div>
-        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-0 sm:pt-5">
+        <p className="text-center text-xl sm:text-6xl text-yellow-600 mb-10 pt-0 sm:pt-5">
           {list.map((item) => (
             <span>{item} </span>
           ))}

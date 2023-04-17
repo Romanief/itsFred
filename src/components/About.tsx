@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="w-full mx-auto p-5 h-full">
       <div>
-        <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-5 sm:pt-0">
+        <p className="text-center text-xl sm:text-6xl text-yellow-600 mb-10 pt-5 sm:pt-0">
           {list.map((item) => (
             <span>{item} </span>
           ))}
@@ -14,7 +14,7 @@ export default function About() {
         <div className="flex flex-col justify-evenly h-full">
           <p className="mt-5">
             I pursued professional{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
+            <span className="text-yellow-600  transition-all hover:font-extrabold">
               ballet
             </span>{" "}
             training from the age of 12 to 19 in Rome and London, fuelled by my
@@ -23,31 +23,21 @@ export default function About() {
           </p>
           <p className="mt-5">
             Instead of giving up, I completed a degree in{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
+            <span className="text-yellow-600  transition-all hover:font-extrabold">
               Physiotherapy
             </span>{" "}
-            and secured a job in the{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              NHS
-            </span>
-            . During my free time, I began to explore{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
+            and secured a job in the NHS. During my free time, I began to
+            explore{" "}
+            <span className="text-yellow-600  transition-all hover:font-extrabold">
               programming
             </span>{" "}
             concepts with the help of some software engineer friends.
           </p>
           <p className="mt-5">
-            Thanks to my{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              inquisitive{" "}
-            </span>
-            nature, I found that critical thinking, problem-solving, logic, and
-            creativity were all{" "}
-            <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
-              skills{" "}
-            </span>
-            I had that I could apply to code, leading me to fall in love with
-            programming and continue exploring the field.
+            Thanks to my inquisitive nature, I found that critical thinking,
+            problem-solving, logic, and creativity were all skills I had that I
+            could apply to code, leading me to fall in love with programming and
+            continue exploring the field.
           </p>
         </div>
       </div>

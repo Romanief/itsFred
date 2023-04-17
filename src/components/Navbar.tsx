@@ -12,7 +12,7 @@ function Navbar({
     <>
       <div
         id="navbar"
-        className="transition fixed h-screen w-72 -translate-x-72 z-50 bg-black"
+        className="transition fixed h-screen w-72 -translate-x-72 z-50 bg-black/80"
       >
         <div className="flex flex-col h-full justify-evenly -translate-y-20 text-3xl pl-9">
           <AiOutlineClose
@@ -26,7 +26,7 @@ function Navbar({
             return (
               <div
                 key={i}
-                className="text-white hover:text-yellow-500 hover:font-bold cursor-pointer"
+                className="text-white hover:text-yellow-600 hover:font-bold cursor-pointer"
                 onClick={() => {
                   reference.current?.scrollTo({
                     top: window.innerHeight * i,
@@ -45,7 +45,7 @@ function Navbar({
         onClick={() => {
           console.log("click")
           document.querySelector("#navbar")!.className =
-            "transition fixed h-screen w-72 translate-x-0 z-50 bg-black"
+            "transition fixed h-screen w-72 translate-x-0 z-50 bg-black/80 "
         }}
       />
     </>
