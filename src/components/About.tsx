@@ -2,7 +2,7 @@ const list = ["What", "you", "should", "know", "about", "me"]
 
 export default function About() {
   return (
-    <div className="w-full mx-auto p-5 sm:p-24">
+    <div className="w-full mx-auto p-5">
       <div>
         <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-5 sm:pt-0">
           {list.map((item) => (

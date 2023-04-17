@@ -4,10 +4,7 @@ import Head from "next/head"
 import Layout from "@/components/Layout"
 import ItsFred from "@/components/ItsFred"
 import About from "@/components/About"
-import Education from "@/components/Education"
-import Todo from "@/components/ProjecTodo"
 import Skills from "@/components/Skills"
-import Shop from "@/components/ProjectShop"
 import Projects from "@/components/Projects"
 
 export default function Home() {

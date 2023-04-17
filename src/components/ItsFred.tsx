@@ -18,7 +18,7 @@ export default function ItsFred() {
           </div>
 
           <p className="my-3 text-2xl p-5">
-            Start scrolling and get to know me.
+            Hover on the picture to see me dancing.
           </p>
         </div>
       </div>

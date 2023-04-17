@@ -18,7 +18,7 @@ import {
 function Skills() {
   const list = ["Skills"]
   return (
-    <div className="w-full mx-auto h-full p-5 sm:p-24">
+    <div className="w-full mx-auto h-screen p-5">
       <div>
         <p className="text-center text-xl sm:text-7xl text-yellow-500 sm:mb-10 pt-5 sm:pt-0">
           {list.map((item) => (
@@ -26,7 +26,7 @@ function Skills() {
           ))}
         </p>
       </div>
-      <div className="flex flex-col h-full justify-around text-md sm:text-xl">
+      <div className="flex flex-col h-3/4 justify-around text-md sm:text-xl">
         <div className="flex justify-around">
           <div className="flex justify-between">
             <IoLogoJavascript />

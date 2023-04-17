@@ -17,7 +17,7 @@ function Carousel({ images }: { images: Array<string> }) {
           }
         }}
       />
-      <img className="w-96" src={images[count]} />
+      <img className="xl:w-96 lg:w-72 md:w-60 w-52" src={images[count]} />
       <BsArrowRight
         className={
           count == images.length - 1

@@ -19,7 +19,7 @@ function Projects() {
     "/TD5.jpeg",
   ]
   return (
-    <div className="w-full h-full mx-auto p-5 sm:p-24">
+    <div className="w-full h-full mx-auto p-5">
       <div>
         <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-0 sm:pt-5">
           {list.map((item) => (
@@ -27,9 +27,9 @@ function Projects() {
           ))}
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row justify-evenly text-xl xl:w-3/4 mx-auto -translate-x-20 sm:mt-20">
-        <div className="flex flex-col">
-          <div className="flex flex-col xl:px-20 pl-20 mb-10">
+      <div className="flex flex-col lg:flex-row justify-evenly h-3/4 text-xl md:w-3/4 mx-auto lg:-translate-x-20 xl:mt-20">
+        <div className="flex flex-col mx-auto">
+          <div className="flex flex-col lg:px-20 mb-10">
             <div className="font-bold">Todo App</div>
             <div className="hidden lg:block">
               Technology used: React, Django, Django-rest, SimpleJWT, Tailwind
@@ -37,8 +37,8 @@ function Projects() {
           </div>
           <Carousel images={todoImages} />
         </div>
-        <div className="flex flex-col">
-          <div className="flex flex-col xl:px-20 pl-20 mb-10">
+        <div className="flex flex-col mx-auto">
+          <div className="flex flex-col lg:px-20 mb-10">
             <div className="font-bold">E-commerce App</div>
             <div className="hidden lg:block">
               Technology used: React, Next, Tailwind
