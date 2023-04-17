@@ -3,21 +3,8 @@ import Carousel from "./Carousel"
 
 function Projects() {
   const list = ["Projects"]
-  const shopImages = [
-    "/SA0.jpeg",
-    "/SA1.jpeg",
-    "/SA2.jpeg",
-    "/SA3.jpeg",
-    "/SA4.jpeg",
-  ]
-  const todoImages = [
-    "/TD0.jpeg",
-    "/TD1.jpeg",
-    "/TD2.jpeg",
-    "/TD3.jpeg",
-    "/TD4.jpeg",
-    "/TD5.jpeg",
-  ]
+  const shopImages = ["/SA0.jpeg", "/SA1.jpeg", "/SA2.jpeg", "/SA3.jpeg"]
+  const todoImages = ["/TD0.jpeg", "/TD1.jpeg", "/TD2.jpeg"]
   return (
     <div className="w-full h-full mx-auto p-5">
       <div>
