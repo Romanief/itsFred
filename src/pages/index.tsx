@@ -6,6 +6,7 @@ import ItsFred from "@/components/ItsFred"
 import About from "@/components/About"
 import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
+import More from "@/components/More"
 
 export default function Home() {
   const requestRef = React.useRef<number>()
@@ -42,7 +43,7 @@ export default function Home() {
         <link rel="icon" href="/f.png" />
       </Head>
 
-      <Layout pages={[ItsFred, About, Skills, Projects]} />
+      <Layout pages={[ItsFred, About, Skills, Projects, More]} />
     </>
   )
 }
