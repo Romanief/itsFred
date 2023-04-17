@@ -9,16 +9,16 @@
 body {
   background-color: #000000;
   opacity: 1;
-  background: linear-gradient(135deg, #3e390155 25%, transparent 25%) -40px 0 / var(
+  background: linear-gradient(135deg, #3e390155 25%, transparent 25%) -40px var(
         --gradient-size
-      ) var(--gradient-size),
-    linear-gradient(225deg, #3e3901 25%, transparent 25%) -40px 0 / var(
+      ) / 80px 80px,
+    linear-gradient(225deg, #3e3901 25%, transparent 25%) -40px var(
         --gradient-size
-      ) var(--gradient-size),
-    linear-gradient(315deg, #3e390155 25%, transparent 25%) 0px 0 /
-      var(--gradient-size) var(--gradient-size),
-    linear-gradient(45deg, #3e3901 25%, #000000 25%) 0px 0 /
-      var(--gradient-size) var(--gradient-size);
+      ) / 80px 80px,
+    linear-gradient(315deg, #3e390155 25%, transparent 25%) 0px
+      var(--gradient-size) / 80px 80px,
+    linear-gradient(45deg, #3e3901 25%, #000000 25%) 0px var(--gradient-size) /
+      80px 80px;
 
   /* background-color: #000000;
   opacity: 1;

@@ -13,15 +13,15 @@ function Sidebar() {
     <>
       <div className="fixed hidden h-screen w-96 -right-72 md:flex flex-col justify-center text-xl z-40">
         <div className="flex p-5 hover:-translate-x-96 transition text-transparent hover:text-gray-200 hover:bg-black/80 z-50 w-[500px]">
-          <AiOutlineMail className="text-gray-200 shrink-0" />
+          <AiOutlineMail className="text-gray-200 text-3xl shrink-0" />
           <p className="ml-14 ">federicoromaniellowork@outlook.com</p>
         </div>
         <div className="flex p-5 hover:-translate-x-80 transition text-transparent hover:text-gray-200  hover:bg-black/80 z-50 w-[500px]">
-          <BsTelephone className="text-gray-200" />
+          <BsTelephone className="text-gray-200 text-3xl" />
           <p className="ml-14">+44 7584 837 509</p>
         </div>
         <div className="flex p-5 hover:-translate-x-80 transition text-transparent hover:text-gray-200  hover:bg-black/80 z-50 w-[500px]">
-          <AiFillLinkedin className="text-gray-200" />
+          <AiFillLinkedin className="text-gray-200 text-3xl" />
           <p className="ml-14">
             <a href="https://www.linkedin.com/in/federico-romaniello-39771a254/">
               Federico Romaniello
@@ -29,7 +29,7 @@ function Sidebar() {
           </p>
         </div>
         <div className="flex p-5 hover:-translate-x-80 transition text-transparent hover:text-gray-200  hover:bg-black/80 z-50 w-[500px]">
-          <AiFillGithub className="text-gray-200" />
+          <AiFillGithub className="text-gray-200 text-3xl" />
           <p className="ml-14">
             <a href="https://github.com/Romanief?tab=repositories">Romanief</a>
           </p>

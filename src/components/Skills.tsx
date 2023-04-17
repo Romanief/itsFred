@@ -20,58 +20,52 @@ function Skills() {
   return (
     <div className="w-full mx-auto h-screen p-5">
       <div>
-        <p className="text-center text-xl sm:text-7xl text-yellow-600 sm:mb-10 pt-5">
+        <p className="text-center text-xl lg:text-7xl sm:text-4xl text-yellow-600 sm:mb-10 pt-5">
           {list.map((item) => (
             <span className="transition-all">{item} </span>
           ))}
         </p>
       </div>
-      <div className="flex flex-col h-3/4 justify-around text-md sm:text-2xl md:w-3/4 mx-auto">
-        <div className="flex justify-around">
-          <div className="flex justify-between">
-            <IoLogoJavascript />
-            <p className="mx-2">JavaScript</p>
-          </div>
-          <div className="flex justify-between">
-            <IoLogoPython />
-            <p className="mx-2">Python</p>
-          </div>
-          <div className="flex justify-between">
-            <IoLogoHtml5 />
-            <p className="mx-2">HTML5</p>
-          </div>
-          <div className="flex justify-between">
-            <IoLogoCss3 />
-            <p className="mx-2">CSS3</p>
-          </div>
+      <div className="gap-x-4 gap-y-20 flex flex-wrap justify-center [&_div]:w-[20%] items-center text-center mt-32">
+        <div className="flex flex-col items-center">
+          <IoLogoJavascript className="text-5xl mb-2" />
+          <p className="mx-2">JavaScript</p>
         </div>
-        <div className="flex justify-around">
-          <div className="flex justify-between">
-            <SiTypescript />
-            <p className="mx-2">TypeScript</p>
-          </div>
-          <div className="flex justify-between">
-            <FaReact />
-            <p className="mx-2">React</p>
-          </div>
-          <div className="flex justify-between">
-            <SiNextdotjs />
-            <p className="mx-2">NextJS</p>
-          </div>
-          <div className="flex justify-between">
-            <SiDjango />
-            <p className="mx-2">Django</p>
-          </div>
+        <div className="flex flex-col items-center">
+          <IoLogoPython className="text-5xl mb-2" />
+          <p className="mx-2">Python</p>
         </div>
-        <div className="flex justify-around">
-          <div className="flex justify-between">
-            <SiTailwindcss />
-            <p className="mx-2">TailwindCSS</p>
-          </div>
-          <div className="flex justify-between">
-            <SiBootstrap />
-            <p className="mx-2">Bootstrap</p>
-          </div>
+        <div className="flex flex-col items-center">
+          <IoLogoHtml5 className="text-5xl mb-2" />
+          <p className="mx-2">HTML5</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <IoLogoCss3 className="text-5xl mb-2" />
+          <p className="mx-2">CSS3</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiTypescript className="text-5xl mb-2" />
+          <p className="mx-2">TypeScript</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <FaReact className="text-5xl mb-2" />
+          <p className="mx-2">React</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiNextdotjs className="text-5xl mb-2" />
+          <p className="mx-2">NextJS</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiDjango className="text-5xl mb-2" />
+          <p className="mx-2">Django</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiTailwindcss className="text-5xl mb-2" />
+          <p className="mx-2">TailwindCSS</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiBootstrap className="text-5xl mb-2" />
+          <p className="mx-2">Bootstrap</p>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import Head from "next/head"
+import { throttle } from "lodash"
 
 import Layout from "@/components/Layout"
 import ItsFred from "@/components/ItsFred"
@@ -12,19 +13,17 @@ export default function Home() {
   const requestRef = React.useRef<number>()
 
   const animate = (time: number) => {
-    requestRef.current = requestAnimationFrame(animate)
-
     const currentValue = getComputedStyle(
       document.documentElement
     ).getPropertyValue("--gradient-size")
 
-    if (parseInt(currentValue) === 500) {
-      return
-    }
-
     document?.documentElement.style.setProperty(
       "--gradient-size",
-      String(parseInt(currentValue) + 1) + "px"
+      String(parseInt(currentValue) - 1) + "px"
+    )
+    setTimeout(
+      () => (requestRef.current = requestAnimationFrame(animate)),
+      1000 / 25
     )
   }
 
