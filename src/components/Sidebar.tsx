@@ -11,7 +11,7 @@ import {
 function Sidebar() {
   return (
     <>
-      <div className="fixed hidden h-screen w-96 -right-72 md:flex flex-col justify-around text-xl z-40">
+      <div className="fixed hidden h-screen w-96 -right-72 md:flex flex-col justify-center text-xl z-40">
         <div className="flex p-5 hover:-translate-x-96 transition text-transparent hover:text-gray-200 hover:bg-black/80 z-50 w-[500px]">
           <AiOutlineMail className="text-gray-200 shrink-0" />
           <p className="ml-14 ">federicoromaniellowork@outlook.com</p>

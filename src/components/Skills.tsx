@@ -16,7 +16,7 @@ import {
 } from "react-icons/io"
 
 function Skills() {
-  const list = ["Skills"]
+  const list = ["Languages", "and", "Frameworks"]
   return (
     <div className="w-full mx-auto h-screen p-5">
       <div>
@@ -26,7 +26,7 @@ function Skills() {
           ))}
         </p>
       </div>
-      <div className="flex flex-col h-3/4 justify-around text-md sm:text-x md:w-3/4 mx-auto">
+      <div className="flex flex-col h-3/4 justify-around text-md sm:text-2xl md:w-3/4 mx-auto">
         <div className="flex justify-around">
           <div className="flex justify-between">
             <IoLogoJavascript />

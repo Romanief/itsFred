@@ -10,7 +10,7 @@ export default function About() {
           ))}
         </p>
       </div>
-      <div className="sm:text-xl text-md w-full sm:w-3/4 sm:mx-auto  h-3/4">
+      <div className="sm:text-2xl text-md w-full sm:w-3/4 sm:mx-auto  h-3/4">
         <div className="flex flex-col justify-evenly h-full">
           <p className="mt-5">
             I pursued professional{" "}
