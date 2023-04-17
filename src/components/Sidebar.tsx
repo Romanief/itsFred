@@ -24,7 +24,10 @@ function Sidebar() {
         <div className="flex p-5 hover:-translate-x-80 transition text-transparent hover:text-gray-200  hover:bg-black/80 z-50 w-[500px]">
           <AiFillLinkedin className="text-gray-200 text-3xl" />
           <p className="ml-14">
-            <a href="https://www.linkedin.com/in/federico-romaniello-39771a254/">
+            <a
+              className="hover:text-yellow-600 "
+              href="https://www.linkedin.com/in/federico-romaniello-39771a254/"
+            >
               Federico Romaniello
             </a>
           </p>
@@ -32,7 +35,12 @@ function Sidebar() {
         <div className="flex p-5 hover:-translate-x-80 transition text-transparent hover:text-gray-200  hover:bg-black/80 z-50 w-[500px]">
           <AiFillGithub className="text-gray-200 text-3xl" />
           <p className="ml-14">
-            <a href="https://github.com/Romanief?tab=repositories">Romanief</a>
+            <a
+              className="hover:text-yellow-600 "
+              href="https://github.com/Romanief?tab=repositories"
+            >
+              Romanief
+            </a>
           </p>
         </div>
       </div>
@@ -66,7 +74,10 @@ function Sidebar() {
           <div className="flex p-5 transition ">
             <AiFillLinkedin className="text-gray-200 text-3xl " />
             <p className="ml-5">
-              <a href="https://www.linkedin.com/in/federico-romaniello-39771a254/">
+              <a
+                className="hover:text-yellow-600 underline"
+                href="https://www.linkedin.com/in/federico-romaniello-39771a254/"
+              >
                 Federico Romaniello
               </a>
             </p>
@@ -74,7 +85,10 @@ function Sidebar() {
           <div className="flex p-5 transition ">
             <AiFillGithub className="text-gray-200 text-3xl " />
             <p className="ml-5">
-              <a href="https://github.com/Romanief?tab=repositories">
+              <a
+                className="hover:text-yellow-600 underline"
+                href="https://github.com/Romanief?tab=repositories"
+              >
                 Romanief
               </a>
             </p>

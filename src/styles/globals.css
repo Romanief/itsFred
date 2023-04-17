@@ -20,8 +20,8 @@ body {
     linear-gradient(45deg, #3e3901 25%, #000000 25%) 0px var(--gradient-size) /
       80px 80px;
 
-  /* background-color: #000000;
-  opacity: 1;
+  /* background-color: #000000; */
+  /* opacity: 1;
   background-image: repeating-radial-gradient(
       circle at 0 0,
       transparent 0,

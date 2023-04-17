@@ -7,7 +7,8 @@ function More() {
         <div>Want to know more about me?</div>
         <a
           className=" cursor-auto"
-          href="https://cvws.icloud-content.com/B/AVLXLUoLGITZue37Sud3-agGuV96AdEIHYft5tTYnEF-oboeoYh18rdm/Federico+Romaniello+-+CV+17%3A04%3A2023.pdf?o=Arxbl1ze_WV6btwedzlfqdFsKyUOCXoMzenF_WYXIpBH&v=1&x=3&a=CAogTqfHOsXXqRlKDtwVPSBpw33BPJ1K7qW68WuGyQVZrt8SbxD0-ZTy-DAY9Nbw8_gwIgEAUgQGuV96WgR18rdmaifPG4H4d3NyZFhM6GnqF1ljZ9cJxR-EDO6gbllAkV-_In3wsqgDNH9yJxeMj_F0iFEZYmZ2bUJ_xdh_KEuk4wkPMKcT1OqCFz6SVlRy2iN1xA&e=1681722714&fl=&r=820518cf-64ee-4cfc-a4d1-087ae1477678-1&k=fn2Dzp3NsRvmMOK6VFSZAw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=29&s=2KssC-7U5ism9pC1quWL31DmF5M&cd=i"
+          href="https://cvws.icloud-content.com/B/AVLXLUoLGITZue37Sud3-agGuV96AdEIHYft5tTYnEF-oboeoYh18rdm/Federico+Romaniello+-+CV+17%3A04%3A2023.pdf?o=AkiBHZI4QgZ27tFCciQDSYzNWdE7uDCaNKrhEfPRyZHX&v=1&x=3&a=CAog4xzX8fr6_GV7_e-TYcY6XhIhA16kI4MBn4Kbv9c5I-sSbxCUqt76-DAYlIe6_PgwIgEAUgQGuV96WgR18rdmaifBQehmP43GBqHlarJbeJYfauQpjeqc44A8s_CddivH6kgE5yw3HdRyJw48e5BArqKm7VeezJRPzZGsCBFx3uKaFMBroeOvENp-pFqWjYn0hg&e=1681740694&fl=&r=76bb9813-d555-409a-93b1-fff4b53563d1-1&k=fn2Dzp3NsRvmMOK6VFSZAw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=29&s=7SCGMRI_qmEyriQwgpHCGTXL0F4&cd=i
+          "
         >
           See my CV <span className="cursor-pointer text-yellow-600">here</span>
         </a>
