@@ -8,8 +8,8 @@ function Carousel({ images }: { images: Array<string> }) {
       <BsArrowLeft
         className={
           count == 0
-            ? "shrink-0 cursor-pointer mx-5 my-auto hover:text-yellow-600 opacity-0"
-            : "shrink-0 cursor-pointer mx-5 my-auto hover:text-yellow-600"
+            ? "shrink-0 cursor-pointer sm:mx-5 my-auto hover:text-yellow-600 opacity-0"
+            : "shrink-0 cursor-pointer sm:mx-5 my-auto hover:text-yellow-600"
         }
         onClick={() => {
           if (count > 0) {
@@ -21,8 +21,8 @@ function Carousel({ images }: { images: Array<string> }) {
       <BsArrowRight
         className={
           count == images.length - 1
-            ? "shrink-0 cursor-pointer mx-5 my-auto hover:text-yellow-600 opacity-0"
-            : "shrink-0 cursor-pointer mx-5 my-auto hover:text-yellow-600"
+            ? "shrink-0 cursor-pointer sm:mx-5 my-auto hover:text-yellow-600 opacity-0"
+            : "shrink-0 cursor-pointer sm:mx-5 my-auto hover:text-yellow-600"
         }
         onClick={() => {
           if (count < images.length - 1) {
