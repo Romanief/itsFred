@@ -26,7 +26,7 @@ function Skills() {
           ))}
         </p>
       </div>
-      <div className="flex flex-col h-3/4 justify-around text-md sm:text-xl">
+      <div className="flex flex-col h-3/4 justify-around text-md sm:text-x md:w-3/4 mx-auto">
         <div className="flex justify-around">
           <div className="flex justify-between">
             <IoLogoJavascript />
