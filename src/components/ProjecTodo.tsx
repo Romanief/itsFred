@@ -72,7 +72,7 @@ function ProjectTodo() {
           </p>
         </div>
       </div>
-      <Carousel images={images} id={id} />
+      <Carousel images={images} />
     </div>
   )
 }

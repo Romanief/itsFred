@@ -8,6 +8,7 @@ import Education from "@/components/Education"
 import Todo from "@/components/ProjecTodo"
 import Skills from "@/components/Skills"
 import Shop from "@/components/ProjectShop"
+import Projects from "@/components/Projects"
 
 export default function Home() {
   const requestRef = React.useRef<number>()
@@ -44,7 +45,7 @@ export default function Home() {
         <link rel="icon" href="/f.png" />
       </Head>
 
-      <Layout pages={[ItsFred, About, Education, Skills, Todo, Shop]} />
+      <Layout pages={[ItsFred, About, Skills, Projects]} />
     </>
   )
 }

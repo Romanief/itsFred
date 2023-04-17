@@ -70,7 +70,7 @@ function Education() {
           to view my Certifications
         </p>
       </div>
-      <Carousel id={id} images={images} />
+      <Carousel images={images} />
     </div>
   )
 }

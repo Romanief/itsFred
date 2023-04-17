@@ -20,7 +20,7 @@ function Skills() {
   return (
     <div className="w-full mx-auto h-full p-5 sm:p-24">
       <div>
-        <p className="text-center text-xl sm:text-7xl text-yellow-500 mb-10 pt-5 sm:pt-0">
+        <p className="text-center text-xl sm:text-7xl text-yellow-500 sm:mb-10 pt-5 sm:pt-0">
           {list.map((item) => (
             <span className="transition-all">{item} </span>
           ))}

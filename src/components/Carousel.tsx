@@ -1,12 +1,44 @@
-import React, { useRef } from "react"
-import { SlClose } from "react-icons/sl"
+import React from "react"
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
 
-function Carousel({ images, id }: { images: Array<string>; id: string }) {
-  const ref = useRef<HTMLDivElement>(null)
+function Carousel({ images }: { images: Array<string> }) {
   const [count, setCount] = React.useState<number>(0)
   return (
-    <div id={id} className="hidden top-0 left-0 w-full h-full bg-black/80 z-40">
+    <div className="flex space-between text-5xl">
+      <BsArrowLeft
+        className={
+          count == 0
+            ? "shrink-0 mx-5 my-auto hover:text-yellow-600 opacity-0"
+            : "shrink-0 mx-5 my-auto hover:text-yellow-600"
+        }
+        onClick={() => {
+          if (count > 0) {
+            setCount(count - 1)
+          }
+        }}
+      />
+      <img className="w-96" src={images[count]} />
+      <BsArrowRight
+        className={
+          count == images.length - 1
+            ? "shrink-0 mx-5 my-auto hover:text-yellow-600 opacity-0"
+            : "shrink-0 mx-5 my-auto hover:text-yellow-600"
+        }
+        onClick={() => {
+          if (count < images.length - 1) {
+            setCount(count + 1)
+          }
+        }}
+      />
+    </div>
+  )
+}
+
+export default Carousel
+
+/* 
+
+ <div id={id} className="hidden top-0 left-0 w-full h-full bg-black/80 z-40">
       <div className="absolute w-full flex flex-row-reverse">
         <div
           onClick={() => {
@@ -57,7 +89,5 @@ function Carousel({ images, id }: { images: Array<string>; id: string }) {
         })}
       </div>
     </div>
-  )
-}
 
-export default Carousel
+    */
