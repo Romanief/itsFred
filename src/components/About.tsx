@@ -1,8 +1,8 @@
-const list = ["What", "you", "should", "know", "about", "me"]
+const list = ["About"]
 
 export default function About() {
   return (
-    <div className="w-full mx-auto p-5">
+    <div className="w-full mx-auto p-5 h-full">
       <div>
         <p className="text-center text-xl sm:text-6xl text-yellow-500 mb-10 pt-5 sm:pt-0">
           {list.map((item) => (
@@ -10,8 +10,8 @@ export default function About() {
           ))}
         </p>
       </div>
-      <div className="sm:text-3xl text-md w-full sm:w-3/4 sm:mx-auto">
-        <div className="pt-5">
+      <div className="sm:text-xl text-md w-full sm:w-3/4 sm:mx-auto  h-3/4">
+        <div className="flex flex-col justify-evenly h-full">
           <p className="mt-5">
             I pursued professional{" "}
             <span className="text-yellow-500  transition-all hover:text-3xl hover:font-extrabold">
