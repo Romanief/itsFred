@@ -16,7 +16,7 @@ function Navbar({
       >
         <div className="flex flex-col h-full justify-evenly -translate-y-20 text-3xl pl-9">
           <AiOutlineClose
-            className=" md:translate-y-5 translate-x-40 cursor-pointer"
+            className="md:translate-y-10 translate-x-40 cursor-pointer translate-y-8"
             onClick={() => {
               document.querySelector("#navbar")!.className =
                 "transition fixed h-screen w-72 -translate-x-72 z-50 bg-black"
