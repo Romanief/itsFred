@@ -3,7 +3,7 @@ import React from "react"
 function More() {
   return (
     <div className="w-full h-full">
-      <div className="absolute w-screen text-center mx-auto top-1/3 text-xl sm:text-3xl lg:text-5xl">
+      <div className="absolute w-full text-center mx-auto top-1/3 text-xl sm:text-3xl lg:text-5xl">
         <div>Want to know more about me?</div>
         <a
           className=" cursor-auto"
