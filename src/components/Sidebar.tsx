@@ -5,7 +5,6 @@ import {
   AiOutlineMail,
   AiFillLinkedin,
   AiFillGithub,
-  AiFillContacts,
   AiOutlineClose,
 } from "react-icons/ai"
 
