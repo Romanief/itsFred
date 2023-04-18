@@ -12,7 +12,6 @@ function More() {
           See my CV <span className="cursor-pointer text-yellow-600">here</span>
         </a>
       </div>
-      <div></div>
     </div>
   )
 }
