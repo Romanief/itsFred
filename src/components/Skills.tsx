@@ -1,5 +1,6 @@
 import React from "react"
 
+import { BsGit } from "react-icons/bs"
 import { FaReact, FaNodeJs } from "react-icons/fa"
 import {
   SiDjango,
@@ -70,6 +71,10 @@ function Skills() {
         <div className="flex flex-col items-center">
           <SiBootstrap className="text-5xl mb-2" />
           <p className="mx-2">Bootstrap</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <BsGit className="text-5xl mb-2" />
+          <p className="mx-2">Git</p>
         </div>
       </div>
     </div>
