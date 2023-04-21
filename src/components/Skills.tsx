@@ -1,6 +1,6 @@
 import React from "react"
 
-import { FaReact } from "react-icons/fa"
+import { FaReact, FaNodeJs } from "react-icons/fa"
 import {
   SiDjango,
   SiNextdotjs,
@@ -54,6 +54,10 @@ function Skills() {
         <div className="flex flex-col items-center">
           <SiNextdotjs className="text-5xl mb-2" />
           <p className="mx-2">NextJS</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <FaNodeJs className="text-5xl mb-2" />
+          <p className="mx-2">NodeJs</p>
         </div>
         <div className="flex flex-col items-center">
           <SiDjango className="text-5xl mb-2" />
