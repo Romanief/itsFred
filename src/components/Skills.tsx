@@ -26,7 +26,7 @@ function Skills() {
           ))}
         </p>
       </div>
-      <div className="gap-x-4 gap-y-20 flex flex-wrap justify-center [&_div]:w-[20%] items-center text-center mt-32">
+      <div className="gap-x-4 gap-y-20 flex flex-wrap justify-center [&_div]:w-[20%] items-center text-center mt-20">
         <div className="flex flex-col items-center">
           <IoLogoJavascript className="text-5xl mb-2" />
           <p className="mx-2">JavaScript</p>
