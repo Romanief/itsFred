@@ -7,7 +7,7 @@ function More() {
         <div>Want to know more about me?</div>
         <a
           className=" cursor-auto"
-          href="https://online.flippingbook.com/view/647299696/"
+          href="https://online.flippingbook.com/view/1050276044/"
         >
           See my CV <span className="cursor-pointer text-yellow-600">here</span>
         </a>

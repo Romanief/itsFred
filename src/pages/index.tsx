@@ -1,6 +1,5 @@
 import React from "react"
 import Head from "next/head"
-import { throttle } from "lodash"
 
 import Layout from "@/components/Layout"
 import ItsFred from "@/components/ItsFred"
